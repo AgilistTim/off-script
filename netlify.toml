@@ -1,0 +1,12 @@
+# netlify.toml
+# Configuration file for Netlify deployment
+
+[build]
+  publish = "dist"
+  command = "npm run build"
+
+# Redirect rule for SPA routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

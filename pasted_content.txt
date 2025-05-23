@@ -1,0 +1,86 @@
+To embed a YouTube video on your website, follow these steps:
+
+## How to Embed a YouTube Video
+
+1. **Go to the YouTube Video**  
+   Find the video you want to embed on YouTube.
+
+2. **Click the "Share" Button**  
+   Below the video, click the "Share" button.
+
+3. **Select "Embed"**  
+   In the sharing options, choose "Embed." This will display an HTML `<iframe>` code.
+
+4. **Copy the Embed Code**  
+   The code will look something like:
+   ```html
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+   ```
+   Copy this code[1][4].
+
+5. **Paste the Code into Your Website**  
+   Open your website editor and paste the code into the HTML section where you want the video to appear. Save and publish your changes[1][4].
+
+**Tip:** Most website builders (WordPress, Wix, etc.) have a specific "Embed" or "HTML" block/field for this purpose[4].
+
+---
+
+## Why Do Embedded YouTube Videos Sometimes Say "Unavailable"?
+
+There are several reasons why an embedded YouTube video might display a message like "Video unavailable" or "Watch on YouTube":
+
+- **Embedding Disabled by Video Owner:**  
+  The video's privacy settings may block embedding on external sites. The owner can restrict where their video appears, so if embedding is disabled, you'll see this message[3][6].
+
+- **Geo-Restrictions:**  
+  Some videos are only available in certain countries. If you're outside the allowed region, the video will be unavailable[2][7].
+
+- **Copyright Issues or Removal:**  
+  If the video has been removed, taken down for copyright infringement, or deleted by the uploader, it will not play anywhere, including embedded players[2][7].
+
+- **Restricted Mode or Age Restrictions:**  
+  If YouTube's Restricted Mode is enabled, or if the video is age-restricted, it may not play in an embedded frame[7].
+
+- **Technical or Network Issues:**  
+  Browser problems, network errors, or restrictive browser extensions (like ad-blockers) can prevent videos from playing properly[2][5][7].
+
+- **Referrer Policy or HTTPS Issues:**  
+  If your website uses a strict referrer policy or is not served over HTTPS, YouTube may block the embed for security reasons[6].
+
+---
+
+## Summary Table: Common Causes for "Video Unavailable"
+
+| Cause                                 | Description                                                        |
+|----------------------------------------|--------------------------------------------------------------------|
+| Embedding disabled                     | Video owner blocks embedding on external sites                     |
+| Geo-restriction                        | Video not available in your country                                |
+| Copyright/removal                      | Video deleted or removed for policy/copyright reasons              |
+| Restricted/Age-restricted content      | Video blocked due to age or restricted mode                        |
+| Technical/browser/network issues       | Browser settings, extensions, or network errors                    |
+| Referrer policy/HTTPS mismatch         | Website security policy or not using HTTPS                         |
+
+---
+
+**In summary:**  
+Embedding a YouTube video is straightforward—just use the provided embed code in your site's HTML. If you see "video unavailable," it's usually due to the video's privacy settings, regional restrictions, copyright issues, or technical/browser problems[1][2][3][6][7].
+
+Sources
+[1] HTML YouTube Videos - W3Schools https://www.w3schools.com/Html/html_youtube.asp
+[2] Why and How to Fix Unavailable Video on YouTube https://recoverit.wondershare.com/video-repair/this-video-is-unavailable-youtube.html
+[3] Youtube Video Embed not working "video unavailable, watch on ... https://theme.co/forum/t/youtube-video-embed-not-working-video-unavailable-watch-on-youtube/88544
+[4] How to Embed a YouTube Video on your Website - WATCH THIS https://www.youtube.com/watch?v=QZc7cZR0oGs
+[5] How to Watch Unavailable YouTube Videos? https://www.youtube.com/watch?v=C50bAOwW4zo
+[6] Embed Youtube code is not working in HTML - Stack Overflow https://stackoverflow.com/questions/51424578/embed-youtube-code-is-not-working-in-html
+[7] 10 Easy Ways to Fix YouTube This Video is Unavailable [2025] https://4ddig.tenorshare.com/video-error/youtube-this-video-is-unavailable.html
+[8] What's The Best Way To Go About Embedding A YouTube Video On ... https://www.reddit.com/r/webdev/comments/o8ka1i/whats_the_best_way_to_go_about_embedding_a/
+[9] HTML & CSS - How to Embed a YouTube Video in Your Website https://www.youtube.com/watch?v=ly36kn0ug4k
+[10] "Video unavailable. This content isn't available" Video playback issue. https://www.reddit.com/r/youtube/comments/1f4n18h/video_unavailable_this_content_isnt_available/
+[11] video unavailable - YouTube Community - Google Help https://support.google.com/youtube/thread/298923405/video-unavailable
+[12] Fix YouTube Error - The Video is Unavailable On This Device https://www.youtube.com/watch?v=S8S_5520BjQ
+[13] How to Fix YouTube Error. This video is unavailable. Problem Solved. https://www.youtube.com/watch?v=ONAxRU-Vm1o
+[14] Troubleshoot YouTube video errors - Google Help https://support.google.com/youtube/answer/3037019
+[15] YouTube Embedded Players and Player Parameters https://developers.google.com/youtube/player_parameters
+[16] How to Embed a YouTube Video - Ikelite https://www.ikelite.com/pages/how-to-embed-a-youtube-video
+[17] Embedding YouTube Videos on Your Site: Pros and Cons - Graphy https://graphy.com/blog/embed-your-youtube-videos/
+[18] Insert a video from YouTube or another site - Microsoft Support https://support.microsoft.com/en-gb/office/insert-a-video-from-youtube-or-another-site-8340ec69-4cee-4fe1-ab96-4849154bc6db
