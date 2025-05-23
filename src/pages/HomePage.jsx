@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import CareerChatInterface from './CareerChatInterface';
+import CareerChatInterface from '../components/CareerChatInterface';
 
 const HomePage = () => {
   const [showChat, setShowChat] = useState(false);

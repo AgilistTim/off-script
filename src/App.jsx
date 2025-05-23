@@ -13,8 +13,9 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/career-categories" element={<CareerCategoriesPage />} />
+        <Route path="/categories" element={<CareerCategoriesPage />} />
         <Route path="/video-exploration/:category" element={<InteractiveVideoExplorationPage />} />
+        <Route path="/video-exploration/:category/:videoId" element={<InteractiveVideoExplorationPage />} />
         <Route path="/assessment" element={<AssessmentPage />} />
       </Routes>
     </Router>

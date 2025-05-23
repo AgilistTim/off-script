@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { getVideosForCategory, getVideoById, getQuestionsForVideo } from './validatedVideos';
-import './InteractiveVideoExplorationPage.css';
+import '../styles/InteractiveVideoExplorationPage.css';
 
 const InteractiveVideoExplorationPage = () => {
   const { category, videoId } = useParams();
