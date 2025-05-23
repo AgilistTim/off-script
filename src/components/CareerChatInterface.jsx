@@ -14,8 +14,8 @@ const CareerChatInterface = () => {
   const messagesEndRef = useRef(null);
 
   // OpenAI API configuration
-  const ASSISTANT_ID = process.env.REACT_APP_OPENAI_ASSISTANT_ID || 'your-assistant-id';
-  const API_KEY = process.env.REACT_APP_OPENAI_API_KEY || 'your-api-key';
+  const ASSISTANT_ID = import.meta.env.VITE_OPENAI_ASSISTANT_ID || 'your-assistant-id';
+  const API_KEY = import.meta.env.VITE_OPENAI_API_KEY || 'your-api-key';
 
   // Auto-scroll to bottom of messages
   useEffect(() => {
